@@ -1,0 +1,39 @@
+Cory Loeffelman
+
+9/8/14
+
+Exploration Assignment 1
+
+Topic: SASS
+
+Recap:
+
+The web development topic I chose to look into was Syntactically Awesome Style Sheets or SASS. The reason I chose SASS was because I love designing web pages and being creative while using CSS,
+so I figured an extension that built off of traditional style sheets would be interesting to learn about. 
+
+Before downloading SASS, they require you to download Ruby which uses "gems" to control 3rd party applications. I went to the following link to find Ruby:
+
+	http://www.rubyinstaller.org/
+
+After installing ruby, I downloaded RubyGems and was then able to install sass through the command prompt. The link below guided me through the download/install process.
+
+	http://sass-lang.com/install
+
+I then used sass's online guide along with some tutorial videos on LevelUpTuts channel on YouTube to learn the basics. The links are below:
+
+	http://sass-lang.com/guide
+
+	https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg
+
+The webpage I created with the assistance of SASS was just a simple one without much complexity, but I was really able to get a good handle on the syntax of the language which essentially
+just builds off of normal CSS while being quite a bit more intuitive. The first intro video I watched discussed the use of variables for CSS stylings. I learned that with SASS you can create
+variables for any and all CSS properties (i.e. font stylings, backgrounds, borders, etc.) and use them anywhere within your .scss page. This extremely helpful for simplifying and condensing 
+long strings of CSS code that is used widely throughout a webpage. SASS also allows for nesting CSS code vs the traditional method of calling descendant combinators to get to the desired
+element. With nesting, you simply call elements within the confines of the surrounding element's CSS block. In conclusion, SASS helps keep code concise and reduces repetition. While it may
+not make a huge difference for smaller sites, it can be very beneficial for larger, more complicated ones.
+
+One problem I ran into while incorporating SASS into my basic website was figuring out how to use Ruby to link my SASS code to my CSS and allow the site to utilize it. After researching online,
+I found out that Ruby acts as a preprocessor that watches for any changes on the SASS file and then appends them to the CSS file. It's not necessary to create a CSS file right away because the 
+command used in Ruby "sass --watch style.scss:style.css" will not only add changes, but also create a CSS file if necessary (one doesn't already exist). I also found out that the web page itself 
+never actually comes in contact with the SASS file. Similar to how php (acting as a short-cut, so to speak) generates html code where necessary, Ruby, combined with SASS, will write the extended 
+CSS code to the .css file.

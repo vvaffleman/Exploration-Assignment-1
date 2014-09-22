@@ -1,0 +1,46 @@
+$blue: #3333FF;
+$para-margin: 10% 5% 10% 5%; 
+$title-margin: auto;
+$font: Verdana, Geneva, sans-serif;
+$green: #009900;
+$yellow: #FFFF00;
+
+
+#title-div{
+	margin: $title-margin;
+	font-family: $font;
+	width: 550px;
+	text-align: center;
+	
+	h1{
+		color: $blue;
+		font-size: 20pt;
+		
+	}
+	
+	h2{
+		color: $blue;
+		font-size: 14pt;
+		
+	}
+}
+
+#div1{
+	font-family: $font;
+	margin: $para-margin;
+	
+	padding: 10px;
+	
+	background-image: -webkit-gradient(linear, left top, left bottom, from($green), to($yellow));
+	
+	#p1{
+		font-size: 18pt;
+	}
+	
+	#p4{
+		a{
+			color: green;
+		}
+	}
+}
+

@@ -1,0 +1,23 @@
+#title-div {
+  margin: auto;
+  font-family: Verdana, Geneva, sans-serif;
+  width: 550px;
+  text-align: center; }
+  #title-div h1 {
+    color: #3333FF;
+    font-size: 20pt; }
+  #title-div h2 {
+    color: #3333FF;
+    font-size: 14pt; }
+
+#div1 {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 10% 5% 10% 5%;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#009900), to(#FFFF00)); }
+  #div1 #p1 {
+    font-size: 18pt; }
+  #div1 #p4 a {
+    color: green; }
+
+/*# sourceMappingURL=style.css.map */
